@@ -1,6 +1,6 @@
 class Hash
   def keys_of(*arguments)
-    Hash.each do |key, value|
+    Hash.select do |key, value|
     
     end 
   end
