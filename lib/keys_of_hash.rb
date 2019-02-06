@@ -1,6 +1,6 @@
 class Hash
   def keys_of(*arguments)
     arguments_list = arguments.each{ |argument| }
-    self.select{ |key, value| arguments_list.includes? }
+    self.select{ |key, value| arguments_list.include() }
   end
 end
