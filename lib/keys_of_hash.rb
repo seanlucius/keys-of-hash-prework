@@ -1,6 +1,6 @@
 class Hash
   def keys_of(*arguments)
-    Hash.map |key, value|
+    Hash.map do |key, value|
     
     end 
   end
