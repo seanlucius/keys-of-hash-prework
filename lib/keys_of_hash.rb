@@ -1,7 +1,5 @@
 class Hash
   def keys_of(*arguments)
-    self.select do |key, value|
-      value == arguments
-    end 
+    self.select{|key, value| value == arguments}.map
   end
 end
